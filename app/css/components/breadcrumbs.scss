@@ -1,0 +1,31 @@
+#breadcrumbs {
+  padding: $marginDefault/6 $marginDefault/2;
+  ul {
+    margin: 0;
+    font-size: 14px;
+    li {
+      margin-left: 0;
+      padding: 0;
+      a {
+        text-transform: capitalize;
+
+        padding: 0;
+        color: lighten($primaryColor, 1);
+
+        &::after {
+          content: ' >';
+          }
+
+        &:active {
+          text-decoration: underline;
+        }
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+
+    }
+  }
+}

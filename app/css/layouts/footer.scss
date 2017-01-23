@@ -1,0 +1,10 @@
+footer {
+  height: 30px;
+  padding-top: $marginDefault;
+  padding-bottom: $marginDefault/3;
+  color: $primaryColor;
+
+  h1, h2, h3 {
+    color: lighten($primaryColor, 20);
+  }
+}

@@ -1,0 +1,22 @@
+header#page-header, footer{
+  background-color: $secundaryColor;
+  padding: 0 $marginDefault 0 $marginDefault;
+  display: flex;
+}
+header#page-header{
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10vh;
+
+
+
+  .logo{
+    align-self: center;
+    color: lighten($primaryColor, 20);
+    font-size: 20px;
+    font-weight: 600;
+    // letter-spacing: 10px;
+  }
+
+
+}

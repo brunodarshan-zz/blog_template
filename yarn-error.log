@@ -1,0 +1,43 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add yeoman
+
+PATH: 
+  /home/darshan/.rbenv/plugins/ruby-build/bin:/home/darshan/.rbenv/shims:/home/darshan/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/darshan/.rvm/bin:/home/darshan/.rvm/bin
+
+Yarn version: 
+  0.18.1
+
+Node version: 
+  7.2.1
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "darshansblog",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://gitlab.com/brunodarshan/darshansblog.git",
+    "author": "Darshan",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: http://github.com/yeoman/generators/archive/0.9.5.tar.gz: Request failed "404 Not Found"
+      at Request.handleRequestError (/usr/local/lib/node_modules/yarn/lib/fetchers/tarball-fetcher.js:231:20)
+      at emitOne (events.js:96:13)
+      at Request.emit (events.js:188:7)
+      at Request.onRequestResponse (/usr/local/lib/node_modules/yarn/node_modules/request/request.js:986:10)
+      at emitOne (events.js:96:13)
+      at ClientRequest.emit (events.js:188:7)
+      at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:473:21)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:99:23)
+      at TLSSocket.socketOnData (_http_client.js:362:20)
+      at emitOne (events.js:96:13)

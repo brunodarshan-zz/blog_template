@@ -1,0 +1,18 @@
+// @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,700i|Space+Mono:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,800');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    background-color: lighten($primaryColor, 40);
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+section {
+  display: block;
+}

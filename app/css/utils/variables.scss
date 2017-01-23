@@ -1,0 +1,15 @@
+// Cores principais
+$primaryBgColor: #FAFAFA;
+$primaryColor: #8A949B;
+$secundaryColor: #243743;
+// Cores adicionais
+$primaryBgColorDark: darken($primaryBgColor, 10);
+$primaryBgColorLight: lighten($primaryBgColor, 10);
+$primaryColorDark: darken($primaryColor, 10);
+$primaryColorLight: lighten($primaryColor, 10);
+
+// Margens
+$marginDefault: 30px;
+// Animações
+$animationTiming: .3s;
+$animationTimingFunction: ease-in-out;
