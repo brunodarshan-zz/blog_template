@@ -1,6 +1,70 @@
-@charset "UTF-8";
-@import "utils/utils";
-@import "base/base";
-@import "elements/elements";
-@import "components/components";
-@import "layouts/layouts";
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900');
+
+@import "w3";
+
+html, body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #454545;
+}
+
+
+img.full {
+  width: 100%;
+}
+
+
+article {
+  .meta {
+    margin-top: -30px;
+    font-weight: bold;
+    a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+header {
+  h1 {
+    font-weight: 700;
+    a {
+      text-decoration: none;
+    }
+  }
+ }
+}
+
+#sidebar {
+  h2{font-weight: bold;}
+}
+#Menu {
+  filter: opacity(.8);
+  max-width: 600px;
+  margin-top: -40px;
+  z-index: 5000000;
+}
+
+#breadcrumbs {
+  a {
+    &:after {
+      content: ' > ';
+
+    }
+  }
+}
+
+.w3-bold {
+  font-weight: bold;
+}
+
+a.clean {
+  text-decoration: none;
+  &:hover, &:focus, &:active {
+    color: inherit;
+  }
+}
+
+.footer {
+  margin-bottom: 0;
+}
